@@ -10,7 +10,11 @@ module.exports = {
   },
   devServer: {
     open: false,
-    hot: true
+    hot: true,
+    overlay: {
+      warnings: true,
+      errors: true
+    }
   },
   module: {
     rules: [
