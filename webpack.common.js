@@ -8,14 +8,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
-  devServer: {
-    open: false,
-    hot: true,
-    overlay: {
-      warnings: true,
-      errors: true
-    }
-  },
   module: {
     rules: [
       {
@@ -36,9 +28,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",
-      title: "FooBar"
-    }),
-    new webpack.HotModuleReplacementPlugin()
+      template: "src/index.html"
+    })
   ]
 };
