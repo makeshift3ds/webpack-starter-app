@@ -1,2 +1,7 @@
+/* Import the css so it is run through webpack */
 import "./main.scss";
-document.write("this is a tester");
+
+/* test some es2015 */
+import Foo from "./test_module";
+
+Foo();
