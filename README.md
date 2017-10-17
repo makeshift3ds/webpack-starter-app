@@ -1,5 +1,5 @@
-### Starter Webpack Application
-Testing out the features of Webpack 3 by building a starter application. Might turn it into a blog or something.
+### Starter Webpack 3 Application
+Small barebones Webpack 3 application using Sass and Babel. 
 
 ### Usage
 `npm run dev` - do a dev build

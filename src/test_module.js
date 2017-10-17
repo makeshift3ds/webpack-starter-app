@@ -1,3 +1,3 @@
 module.exports = () => {
-  document.write("<h1>Test ES2015</h1>");
+  document.write("<h1>Test Module has Been Executed</h1>");
 };
