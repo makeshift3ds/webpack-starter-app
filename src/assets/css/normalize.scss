@@ -1,0 +1,50 @@
+* {
+  box-sizing: inherit;
+  background-repeat: no-repeat;
+}
+
+html {
+  box-sizing: border-box;
+  cursor: default;
+}
+
+body {
+  margin: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+canvas,
+svg,
+img {
+  vertical-align: middle;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
