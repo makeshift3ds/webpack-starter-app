@@ -8,5 +8,6 @@ module.exports = merge(common, {
       warnings: true,
       errors: true
     }
-  }
+  },
+  devtool: "source-map"
 });
