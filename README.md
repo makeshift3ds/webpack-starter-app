@@ -1,5 +1,5 @@
 ### Starter Webpack 3 Application
-Small barebones Webpack 3 application using Sass and Babel. 
+Barebones Webpack 3 application using Sass and Babel. 
 
 ### Usage
 **do a dev build**
