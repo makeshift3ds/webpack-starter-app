@@ -12,6 +12,6 @@ Small barebones Webpack 3 application using Sass and Babel.
 `npm run start`
 
 
-**start the webpack-dev-server on port 8080**
+**build for production**
 
 `npm run build` - build for production
