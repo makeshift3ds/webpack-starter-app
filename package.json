@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server --config webpack.dev.js"
+    "start": "webpack-dashboard -- webpack-dev-server --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "webpack": "^3.7.1",
+    "webpack-dashboard": "^1.0.0",
     "webpack-dev-server": "^2.9.2",
     "webpack-merge": "^4.1.0"
   }
