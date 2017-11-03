@@ -14,4 +14,9 @@ Barebones Webpack 3 application using Sass and Babel.
 
 **build for production**
 
-`npm run build` - build for production
+`npm run build`
+
+
+**run tests**
+
+`npm run test`
