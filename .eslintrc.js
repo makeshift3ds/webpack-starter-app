@@ -1,6 +1,12 @@
 module.exports = {
-  extends: "airbnb-base",
+  extends: ["standard", "prettier"],
   env: {
-    browser: true
-  }
+    browser: true,
+    es6: true,
+    node: true
+  },
+  rules: {
+    "prettier/prettier": "error"
+  },
+  plugins: ["prettier"]
 };

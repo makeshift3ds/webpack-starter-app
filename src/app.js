@@ -1,9 +1,4 @@
 /* Import the css so it is run through webpack */
-import "./assets/css/manifest.scss";
+import './assets/css/manifest.css';
 
-/* test some es2015 */
-import TestModule from "./test_module";
-
-/* just some test code */
-let bat = new TestModule();
-bat.bar();
+console.log('app loaded');
