@@ -1,4 +1,2 @@
-/* Import the css so it is run through webpack */
+/* Import the css so it is run through css-loader */
 import './assets/css/manifest.css';
-
-console.log('app loaded');
